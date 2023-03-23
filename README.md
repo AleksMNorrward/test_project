@@ -4,7 +4,14 @@ This is an application with a single page for entering and verifying a phone num
 
 Chrome Video Example:
 
-Smartphone Image Example: 3931FB65-2CB5-4FEA-848A-C8CF49368DE3
+
+https://user-images.githubusercontent.com/126317425/227269782-9a1725de-7b9f-4d3c-a0bb-6d36d6f8e08a.MOV
+
+
+
+Smartphone Image Example:
+![0E8EEB7B-4C66-4841-9C95-5AB7A8D2E0ED](https://user-images.githubusercontent.com/126317425/227269705-2961be8f-ddf3-42a3-b592-fc4aa999d025.jpeg)
+
 
 As it was optimal for aquiring countries' data and methods, I imported the country-code-picker package, which allows the user not only to get smaller code with all the needed functionality, but also lets developers customize its widgets to some extent. With it comes a country code selection button, wrapped in a custom container, and a sheet with a list of countries. The search bar was customized a little, it can search through the list by first letters and abbreviations ('uk', 'us', ect.) and by country code (+44, +380, ect). Also for the sake of comfortable search there was implemented a localization that responds to English.
 
