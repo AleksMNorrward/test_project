@@ -1,16 +1,13 @@
 # test_project
 
-A new Flutter project.
+This is an application with a single page for entering and verifying a phone number. The app was initially developed in the VSCode and tested using Chrome and smartphone simulator. Unfortunately, on my computer I can only test my app through the Chrome page, where keypad cannot be applied, so the smartphone test was available to me only thanks to a friend's computer.
 
-## Getting Started
+Chrome Video Example:
 
-This project is a starting point for a Flutter application.
+Smartphone Image Example: 3931FB65-2CB5-4FEA-848A-C8CF49368DE3
 
-A few resources to get you started if this is your first Flutter project:
+As it was optimal for aquiring countries' data and methods, I imported the country-code-picker package, which allows the user not only to get smaller code with all the needed functionality, but also lets developers customize its widgets to some extent. With it comes a country code selection button, wrapped in a custom container, and a sheet with a list of countries. The search bar was customized a little, it can search through the list by first letters and abbreviations ('uk', 'us', ect.) and by country code (+44, +380, ect). Also for the sake of comfortable search there was implemented a localization that responds to English.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+A text field has been improved with a hint-text and is using a mask (mask-input-text-formatter package) to let only numbers and mobilephone form (brackets, hyphens, number of digits). A numeric keypad is to show automatically for some systems (IOS or Android), but according to my little investigation is never shown yet while using Chrome, so it can be seen only on the Smartphone Example.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A button was formed to be disabled until all the 10 digits of the phone number are typed in. With that helps a text controller, which supervises a textfield's state of fillness. Once it meets the condition of 15 symbols in the length of text in the textfield (which responds to the number of symbols (brackets, hyphens, digits) in the mask of the phone number) the access button becomes available for use. When clicking it, you will see a little message: "Well done! You've entered". Also there is a message printed in console: "Well done".
