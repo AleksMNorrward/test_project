@@ -8,8 +8,9 @@ Chrome Video Example:
 https://user-images.githubusercontent.com/126317425/227269782-9a1725de-7b9f-4d3c-a0bb-6d36d6f8e08a.MOV
 
 
-
 Smartphone Image Example:
+
+
 ![0E8EEB7B-4C66-4841-9C95-5AB7A8D2E0ED](https://user-images.githubusercontent.com/126317425/227269705-2961be8f-ddf3-42a3-b592-fc4aa999d025.jpeg)
 
 
